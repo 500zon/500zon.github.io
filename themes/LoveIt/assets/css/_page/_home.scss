@@ -9,7 +9,7 @@
 
       img {
         display: inline-block;
-        width: 15rem;
+        width: 8rem;
         height: auto;
         margin: 0 auto;
         @include border-radius(100%);
@@ -31,15 +31,15 @@
     }
 
     .home-subtitle {
-      font-size: 1.85rem;
+      font-size: 1rem;
       font-weight: normal;
       margin: 0;
-      padding: .9rem;
+      padding: .5rem;
     }
 
     .links {
-      padding: 2.5rem 5.5rem 0 5.5rem;
-      font-size: 2.5rem;
+      padding: .5rem;
+      font-size: 1.5rem;
 
       a * {
         vertical-align: text-bottom;
@@ -100,10 +100,11 @@
         height: 100%;
         left: 0;
         top: 0;
+        @include object-fit(none);
+      }
 
-        &.lazyloaded {
-          @include object-fit(cover);
-        }
+      img.lazyloaded {
+        @include object-fit(cover);
       }
 
       &:hover {

@@ -2,6 +2,7 @@
 title: "关于咱(About)"
 date: 2023-03-16T12:25:21+08:00
 draft: false
+comment: false
 ---
 
 ## **星野雪❄️**
@@ -22,5 +23,5 @@ draft: false
 
 #### **不可触碰🚫**
 
-{{< music auto="https://music.163.com/#/playlist?id=8238440424" fixed="true" theme="#607D8B">}}
+![a](https://media.tenor.com/U4PVgG0Uh1wAAAAi/senko-fox.gif)
 

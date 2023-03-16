@@ -66,7 +66,7 @@ hasCJKLanguage = true
   description = "人生天地间，忽如远行客"
 
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = ["/logo.png"]
+  images = ["/favicon.ico"]
 
   # 页面头部导航栏配置
   [params.header]
@@ -77,7 +77,7 @@ hasCJKLanguage = true
     # LoveIt 新增 | 0.2.0 页面头部导航栏标题配置
     [params.header.title]
       # LOGO 的 URL
-      logo = ""
+      logo = "/favicon.ico"
       # 标题名称
       name = "星野小站❄️"
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
@@ -192,12 +192,12 @@ hasCJKLanguage = true
 
   # 作者的社交信息设置
   [params.social]
-    GitHub = "500zon"
-    Linkedin = ""
     Twitter = "x_500zon"
-    Instagram = "asixbin"
-    Facebook = "asinxin"
     Telegram = "zon_5D"
+    Facebook = ""
+    GitHub = ""
+    Instagram = ""
+    Linkedin = ""
     Medium = ""
     Gitlab = ""
     Youtubelegacy = ""
@@ -334,6 +334,7 @@ hasCJKLanguage = true
     # LoveIt 更改 | 0.2.0 文章页面的分享信息设置
     [params.page.share]
       enable = true
+      GitHub = false
       Twitter = true
       Facebook = false
       Linkedin = false
@@ -359,7 +360,7 @@ hasCJKLanguage = true
       Mix = false
     # LoveIt 更改 | 0.2.0 评论系统设置
     [params.page.comment]
-      enable = false
+      enable = true
       # Disqus 评论系统设置
       [params.page.comment.disqus]
         # LoveIt 新增 | 0.1.1
@@ -426,23 +427,25 @@ hasCJKLanguage = true
         label = ""
         lightTheme = "github-light"
         darkTheme = "github-dark"
+
       # giscus comment 评论系统设置 (https://giscus.app/zh-CN)
       [params.page.comment.giscus]
         # 你可以参考官方文档来使用下列配置
-        enable = false
-        repo = ""
-        repoId = ""
-        category = "Announcements"
-        categoryId = ""
+        enable = true
+        repo = "500zon/MyGiscus"
+        repoId = "R_kgDOJKbcdA"
+        category = "General"
+        categoryId = "DIC_kwDOJKbcdM4CU6v0"
         # 为空时自动适配当前主题 i18n 配置
         lang = ""
         mapping = "pathname"
         reactionsEnabled = "1"
         emitMetadata = "0"
-        inputPosition = "bottom"
+        inputPosition = "top"
         lazyLoading = false
         lightTheme = "light"
         darkTheme = "dark"
+
     # LoveIt 新增 | 0.2.7 第三方库配置
     [params.page.library]
       [params.page.library.css]
