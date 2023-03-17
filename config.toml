@@ -432,12 +432,12 @@ hasCJKLanguage = true
       [params.page.comment.giscus]
         # 你可以参考官方文档来使用下列配置
         enable = true
-        repo = "500zon/MyGiscus"
-        repoId = "R_kgDOJKbcdA"
+        repo = "500zon/500zon.github.io"
+        repoId = "R_kgDOJKAD0A"
         category = "General"
-        categoryId = "DIC_kwDOJKbcdM4CU6v0"
+        categoryId = "DIC_kwDOJKAD0M4CU65x"
         # 为空时自动适配当前主题 i18n 配置
-        lang = ""
+        lang = "zh-CN"
         mapping = "pathname"
         reactionsEnabled = "1"
         emitMetadata = "0"
